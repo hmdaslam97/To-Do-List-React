@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body{
+    /* margin:50px; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: 'calibri';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#disp{
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    flex-direction: row;
+    width: 98%;
+    border: 2px solid blue;
+    border-radius: 3px;
+    padding-right: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#dispTxt{
+    margin: 5px 0px;
+    flex-grow: 1;
+    font-size: 4vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+#delbtn{
+    display: block;
+    color:red;
+    font-weight: bolder;
+    border:2px solid purple;
+    border-radius: 3px;
+    margin-left: 3px;
+    width: auto;
+    background: none;
+    font-size: 2.5vh;
+    position: relative;
+    margin-top:2px;
 }
 
-.App-link {
-  color: #61dafb;
+#completed{
+    display: block;
+    color:Green;
+    background:none;
+    font-weight: bolder;
+    border:2px solid purple;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-left: 3px;
+    width: auto;
+    font-size: 2.5vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#in {
+    border: 3px solid greenyellow;
+    border-radius: 3px;
+    display: block;
+    height: 30px;
+    width: 700px;
+    margin: auto;
+    font-size: 25px;
+}
+
+#inbtn {
+    display: block;
+    height: 30px;
+    width: auto;
+    margin: 10px auto;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(200, 155, 243);
+    border: 2px solid purple;
+    border-radius: 3px;
 }
